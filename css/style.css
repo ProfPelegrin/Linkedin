@@ -1,0 +1,114 @@
+/* Normalizando */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgba(0, 0, 0, .03);
+}
+
+/*==== first-header======================================================*/
+
+/*Define estrutura do cabeçalho*/
+div.first-header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	background-color: #283e4a;
+}
+
+/*Ver definição de Float*/
+div.first-header li {
+	float: left;
+}
+
+/*Definição principal dos elementos do cabeçalho*/
+div.first-header li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px;
+	max-height: 50px;
+}
+
+/* Imagens do cabeçalho */
+div.first-header li figure a img {
+	height: 30px;
+	width: 30px;
+}
+
+/* Buscar */
+div.first-header li input {
+	margin-top: 25px
+}
+
+/*================================================== first-header========*/
+
+/*==== main =============================================================*/
+div.main {
+	border-style: solid;
+	border-width: thin;
+	width: 790px;
+	margin-left: 460px;
+	margin-top: 25px;
+}
+
+div.top_img img {
+	float: left;
+}
+
+div.main_picture img {
+	margin-top: 150px;
+	z-index: 0;
+	border-radius: 50%;
+	margin-left: -750px;
+	border-color: white;
+	border-style: solid;
+}
+
+div.personal_data {
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	width: 770px;
+	margin-left: 10px;
+	padding: 10px 0 10px 0;
+}
+
+div.cover_letter {
+	width: 770px;
+	margin-left: 10px;
+	padding: 10px 0 10px 0;
+}
+
+div.experience {
+	border-style: solid;
+	border-width: thin;
+	width: 770px;
+	margin: 15px 460px;
+	padding: 10px;
+}
+
+td, th {
+	padding: 0px 5px;
+}
+
+table {
+	padding: 10px 0px;
+}
+
+body > div.body > div.experience > table > tbody > tr:nth-child(1) > td > table {
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	border-bottom-width: thin;
+	width: 773px
+}
+
+body > div.body > div.experience > table > tbody > tr:nth-child(2) > td > table {
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	border-bottom-width: thin;
+	width: 773px
+}
